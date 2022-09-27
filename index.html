@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Mixtape Webpage</title>
+    <link rel="stylesheet" href="main/images/styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!--Start of container for Music page-->
+    <div class="container">
+        <button onclick=""> Stop Song</button> <!-- add onclick eventlistner/music stop-->
+        <div class="gallery"> <!--add onclick event listner for figure,/album covers-->
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="main/images/lead_belly.jpg" alt="Where Did You Sleep Last Night">
+            </figure>
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="main/images/Julien_baker.jpg" alt="Something">
+            </figure>
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="main/images/radiohead.jpg" alt="Myxamatosis">
+            </figure>
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="main/images/tyler_childress.jpg" alt="Follow You To Virgie">
+            </figure>
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="main/images/Vulpeck.jpg"  alt="Cory Wong">
+            </figure>
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="main/images/Jim_croce.jpg" alt="New York's Not My Home">
+            </figure>
+            <figure class="gallery__item gallery__item--7" id="fig7" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="main/images/beatles.jpg" alt="Hey Bulldog">
+            </figure>
+            <figure class="gallery__item gallery__item--8" id="fig8" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="main/images/Rainbow_kitten.jpg" alt="It's Called: Freefall">
+            </figure>
+            <figure class="gallery__item gallery__item--9" id="fig9" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="main/images/alice_in_chains.jpg" alt="Rooster">
+            </figure>
+
+
+        </div>
+        <button onclick="stopSnippet()">Stop Song</button>
+    </div>
+</body>
+</html>
